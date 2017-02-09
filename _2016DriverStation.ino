@@ -134,10 +134,6 @@ dataForController_t getControllerData(void) {
    //    digitalWrite(i, HIGH);
    }*/
 
-
-  //For 2015 we only have 1 analog axis, which
-  //is the slider
-
   //sets sensorValue var to position of slider
   sensorValueArm = analogRead(armMove);
   sensorValueIntake = analogRead(intakeMove);
